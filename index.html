@@ -39,42 +39,52 @@
 	<table>
 		<tr>
 			<td>
-				<button type="button" class="btn">Início</button>
+				<button type="button" class="btn" onclick="btnInicio()">Início</button>
 			</td>
 			<td>
-				<input type="text" name="bgn" id="bgn" />
+				<input type="text" name="bgn" id="bgn" disabled=""/>
+			</td>
+        </tr>
+		<tr>
+			<td>
+				<button type="button" class="btn" onclick="btnIntervalo()">Intervalo</button>
+			</td>
+			<td>
+				<input type="text" name="int" id="int" disabled=""/>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<button type="button" class="btn">Intervalo</button>
+				<button type="button" class="btn" onclick="btnRetorno()">Retorno</button>
 			</td>
 			<td>
-				<input type="text" name="bgn" id="bgn" />
+				<input type="text" name="bck" id="bck" disabled=""/>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<button type="button" class="btn">Retorno</button>
+				<button type="button" class="btn" onclick="btnSaida()">Saída</button>
 			</td>
 			<td>
-				<input type="text" name="bgn" id="bgn" />
+				<input type="text" name="out" id="out" disabled=""/>
 			</td>
 		</tr>
-		<tr>
-			<td>
-				<button type="button" class="btn">Saída</button>
-			</td>
-			<td>
-				<input type="text" name="bgn" id="bgn" />
-			</td>
-		</tr>
-	</table>
+       </table>
+       <table>
+       <tr>
+       	<td>
+        	<button type="button" class="btnSalvar" onclick="btnSalvar()">Salvar</button>
+         </td>   
+        </tr>
+       </table>
 	</div>
  
 		
 	<div id="lista" class="conteudo"> 
-		Aqui serão impressos os dias para serem consultados no banco de Dados!			
+		Aqui serão impressos os dias para serem consultados no banco de Dados!
+        <div id="lista" class="conteudo lista">
+        
+        </div>		
 	</div> 
 
 	<div class="conteudo"> 
