@@ -47,10 +47,10 @@ body{font-family:Calibri, Tahoma, Arial}
 .TabControl #content{background:#FFFFFF} 
 
 .TabControl .conteudo{
-	width:100%;
+	width:auto;
 	background:#ffffff;
 	display:none;
-	height:100%;
+	height:auto;
 	color:#000
 } 
 
